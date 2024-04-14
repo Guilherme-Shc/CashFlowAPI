@@ -40,3 +40,4 @@ C:\Code\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\refint\CashFlow.Api.dll
 C:\Code\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
 C:\Code\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 C:\Code\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
+C:\Code\C#\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.sourcelink.json
