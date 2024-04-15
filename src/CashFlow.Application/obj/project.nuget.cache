@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "je7SFkQIXZiQ4KmzF3uFBFDGvIhIeLJBZzBI+CAhjte+kZqaCl9yKp6FcFXcx/4Vuj1ipSu1LCgMyxIAnCG0WA==",
+  "dgSpecHash": "KmtI8e6IlIJe63NwVhTuvUfxkGcZ1Zqr1dYgFS/MRFxnsusBJ43Q2w9GViLA504DGClYCgtyxpKXX9zHG1CucA==",
   "success": true,
   "projectFilePath": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\antgu\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
   "logs": []
 }

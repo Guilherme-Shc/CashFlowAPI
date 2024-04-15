@@ -15,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{2080FEB2-5AC4-4156-82DB-928EF78A6D8A}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F504D41B-2A66-4C70-BAF1-EE6F51A3E6AD}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|c:\\code\\c#\\cashflow\\src\\cashflow.communication\\responses\\responseregisteredexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F504D41B-2A66-4C70-BAF1-EE6F51A3E6AD}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\responses\\responseregisteredexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60BAEAD3-AC0E-4058-925C-87BDFC2741B6}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\code\\c#\\cashflow\\src\\cashflow.application\\usecases\\expenses\\register\\registerexpensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60BAEAD3-AC0E-4058-925C-87BDFC2741B6}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F504D41B-2A66-4C70-BAF1-EE6F51A3E6AD}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|c:\\code\\c#\\cashflow\\src\\cashflow.communication\\requests\\requestregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F504D41B-2A66-4C70-BAF1-EE6F51A3E6AD}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\requests\\requestregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F504D41B-2A66-4C70-BAF1-EE6F51A3E6AD}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|c:\\code\\c#\\cashflow\\src\\cashflow.communication\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F504D41B-2A66-4C70-BAF1-EE6F51A3E6AD}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +54,7 @@
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
               "ToolTip": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T22:40:29.819Z",
               "IsPinned": true,
@@ -72,22 +68,22 @@
               "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Responses\\ResponseErrorJson.cs",
               "ToolTip": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Communication\\Responses\\ResponseErrorJson.cs",
               "RelativeToolTip": "src\\CashFlow.Communication\\Responses\\ResponseErrorJson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T23:36:49.568Z",
+              "WhenOpened": "2024-04-15T00:34:36.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ResponseRegisteredExpenseJson.cs",
-              "DocumentMoniker": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Communication\\Responses\\ResponseRegisteredExpenseJson.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Responses\\ResponseRegisteredExpenseJson.cs",
-              "ToolTip": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Communication\\Responses\\ResponseRegisteredExpenseJson.cs",
-              "RelativeToolTip": "src\\CashFlow.Communication\\Responses\\ResponseRegisteredExpenseJson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAuAAAA",
+              "Title": "RegisterExpenseValidator.cs",
+              "DocumentMoniker": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
+              "ToolTip": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T22:42:36.892Z",
+              "WhenOpened": "2024-04-15T00:19:50.49Z",
               "EditorCaption": ""
             },
             {
@@ -98,22 +94,10 @@
               "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Requests\\RequestRegisterExpenseJson.cs",
               "ToolTip": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestRegisterExpenseJson.cs",
               "RelativeToolTip": "src\\CashFlow.Communication\\Requests\\RequestRegisterExpenseJson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T22:35:10.271Z",
+              "WhenOpened": "2024-04-15T00:26:51.659Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaymentType.cs",
-              "DocumentMoniker": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Communication\\Enums\\PaymentType.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Enums\\PaymentType.cs",
-              "ToolTip": "C:\\Code\\C#\\CashFlow\\src\\CashFlow.Communication\\Enums\\PaymentType.cs",
-              "RelativeToolTip": "src\\CashFlow.Communication\\Enums\\PaymentType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T22:35:08.766Z"
             }
           ]
         }

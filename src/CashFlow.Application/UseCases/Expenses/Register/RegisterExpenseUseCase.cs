@@ -13,29 +13,19 @@ namespace CashFlow.Application.UseCases.Expenses.Register
             return new ResponseRegisteredExpenseJson();
         }
 
-        private void Validate(RequestRegisterExpenseJson request) 
-        { 
-            var titleIsEmpty = string.IsNullOrWhiteSpace(request.Title);
-            if(titleIsEmpty)
-            {
-                throw new ArgumentException("The title is required.");
-            }
+        private void Validate(RequestRegisterExpenseJson request)
+        {
+            var validator = new RegisterExpenseValidator();
 
-            if(request.Amout <= 0)
-            {
-                throw new ArgumentException("The amount must be greater than zero");
-            }
+            var result = validator.Validate(request);
 
-            var result = DateTime.Compare(request.Date, DateTime.UtcNow);
-            if(result > 0)
+            //se IsValid no result for true significa que a request está valida (sem erros) se não ela entra no if e da a(s) msg(s) de erro
+            if (result.IsValid == false)
             {
-                throw new ArgumentException("Expenses cannot be for the future");
-            }
+                //transformando o valor de erros de Result em uma lista de Strings com as mensagens pois é só o que será usado
+                var errorMessages = result.Errors.Select(param => param.ErrorMessage).ToList(); //To list para transformar em Lista .-.
 
-            var paymentTypeIsValid = Enum.IsDefined(typeof(PaymentType), request.PaymentType);
-            if(paymentTypeIsValid == false) 
-            {
-                throw new ArgumentException("Payment type is not valid.");
+                throw new ArgumentException();
             }
         }
     }
