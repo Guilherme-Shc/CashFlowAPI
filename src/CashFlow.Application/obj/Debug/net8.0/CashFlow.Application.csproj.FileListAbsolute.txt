@@ -18,3 +18,6 @@ C:\Code\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\refint\CashFlow.Ap
 C:\Code\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Application.pdb
 C:\Code\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\ref\CashFlow.Application.dll
 C:\Code\C#\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Application.sourcelink.json
+C:\Code\C#\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
+C:\Code\C#\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
+C:\Code\C#\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll

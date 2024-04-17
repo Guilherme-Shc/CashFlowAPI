@@ -1,6 +1,7 @@
 ﻿using CashFlow.Communication.Enums;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
+using CashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Application.UseCases.Expenses.Register
 {
@@ -25,7 +26,7 @@ namespace CashFlow.Application.UseCases.Expenses.Register
                 //transformando o valor de erros de Result em uma lista de Strings com as mensagens pois é só o que será usado
                 var errorMessages = result.Errors.Select(param => param.ErrorMessage).ToList(); //To list para transformar em Lista .-.
 
-                throw new ArgumentException();
+                throw new ErrorOnValidationException(errorMessages);
             }
         }
     }
